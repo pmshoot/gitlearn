@@ -3,5 +3,9 @@
 def out(s):
 	print(2*s)
 
+def skin(ert):
+	a = skin(out(ert))
+	print(a)
+
 if __name__ == '__main__':
-	out(5)
+	skin('5')
