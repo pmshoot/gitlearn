@@ -1,7 +1,8 @@
+# -----------------
 # module1
-
+# -----------------
 def first():
-	print('this is first function on modul #1')
+	print('this is first function on module #1')
 
 if __name__ == '__main__':
 	first()
