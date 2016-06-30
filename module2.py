@@ -4,8 +4,9 @@ def out(s):
 	print(2*s)
 
 def skin(ert):
-	a = skin(out(ert))
+	a = abs(ert)
 	print(a)
+	out(a)
 
 if __name__ == '__main__':
-	skin('5')
+	skin(4.567)
