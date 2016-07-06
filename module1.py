@@ -1,6 +1,8 @@
 # -----------------
 # module1
 # -----------------
+# some comment
+
 def first():
 	print('this is first function on module #1')
 
